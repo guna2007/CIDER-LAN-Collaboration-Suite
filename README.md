@@ -313,24 +313,4 @@ While functional, the application can be improved with the following enhancement
 * **Adaptive Bitrate:** Implementing logic to dynamically adjust the JPEG compression quality based on network congestion would optimize performance under load.  
 * **Authentication:** The current system relies on self-reported usernames. Future work could include a simple token-based authentication system.
 
-## 🤝 Contributions
-
-
-
-### 👨‍💻 Bhargav Sai Tanguturi
-- Designed and implemented the **core client–server architecture**, including protocol mapping and multi-port communication strategy.
-- Developed the **multi-threaded UDP media relay system** for video, audio, and screen sharing.
-- Implemented **real-time video conferencing**, covering webcam capture, JPEG compression, UDP streaming, and client-side rendering.
-- Designed and coded the **dynamic video grid algorithm**, including automatic layout adjustment and **Presenter Mode (70/30 split)**.
-- Implemented **stream timeout detection** and recovery to handle dropped or inactive media streams gracefully.
-- Authored major documentation sections related to **System Architecture** and **Media Module Implementation**. :contentReference[oaicite:0]{index=0}
-
----
-
-### 👨‍💻 Vivek Vardhan Bantaram
-- Designed and implemented **TCP-based communication protocols** for chat, file sharing, and feedback services.
-- Developed the complete **GUI using Tkinter**, including Login Screen, Control Bar, Dynamic Side Panel, and UI styling.
-- Implemented the **Group Text Chat system** with reliable message delivery, system notifications, and user presence updates.
-- Built the **File Sharing module**, including transactional upload/download handling, progress tracking, and file availability broadcasts.
-- Implemented **UDP keep-alive, timeout cleanup, and resource deallocation logic** to ensure robustness against crashes and disconnects.
-- Authored documentation covering **Communication Protocols, Server & Client Implementation, Performance Analysis, and Future Work**. 
+ 
